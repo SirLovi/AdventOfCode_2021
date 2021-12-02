@@ -18,7 +18,7 @@ def solve1(data):
     print("\n1:")
     print("Final Position: ", currpos)
     print("Final Depth: ", currdepth)
-    print("Multiplyied: ", currdepth*currpos)
+    print("Multiplied: ", currdepth*currpos)
 
 
 def solve2(data):
@@ -38,14 +38,14 @@ def solve2(data):
     print("\n1:")
     print("Final Position: ", currpos)
     print("Final Depth: ", currdepth)
-    print("Multiplyied: ", currdepth*currpos)
+    print("Multiplied: ", currdepth*currpos)
 
 
 with open(absolute_path + "/2_input.txt", 'r') as txtfile:
-    input_list = txtfile.readlines()
-    data = [str(val) for curr_line in input_list for val in curr_line.split()]
+    data = [str(val) for curr_line in txtfile.readlines()
+            for val in curr_line.split()]
 
-print(data)
+# print(data)
 
 solve1(data)
 

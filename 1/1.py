@@ -38,9 +38,9 @@ def solve2(data):
 
 
 with open(absolute_path + "/1_input.txt", 'r') as txtfile:
-    numbers_list = txtfile.readlines()
-    data = [int(num)
-            for curr_line in numbers_list for num in curr_line.split()]
+    data = [int(num) for curr_line in txtfile.readlines()
+            for num in curr_line.split()]
 
 solve1(data)
+
 solve2(data)
