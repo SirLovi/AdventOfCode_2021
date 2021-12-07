@@ -37,7 +37,7 @@ def solve2(data):
     print("Decreased: ", decreased)
 
 
-with open(absolute_path + "/1_input.txt", 'r') as txtfile:
+with open(absolute_path + "/input.txt", 'r') as txtfile:
     data = [int(num) for curr_line in txtfile.readlines()
             for num in curr_line.split()]
 

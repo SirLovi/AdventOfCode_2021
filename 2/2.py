@@ -41,7 +41,7 @@ def solve2(data):
     print("Multiplied: ", currdepth*currpos)
 
 
-with open(absolute_path + "/2_input.txt", 'r') as txtfile:
+with open(absolute_path + "/input.txt", 'r') as txtfile:
     data = [str(val) for curr_line in txtfile.readlines()
             for val in curr_line.split()]
 

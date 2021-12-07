@@ -41,7 +41,7 @@ def solve(data):
 
 data = [0] * 9
 
-with open(absolute_path + "/6_input.txt", 'r') as file:
+with open(absolute_path + "/input.txt", 'r') as file:
     for n in file.read().split(","):
         data[int(n)] += 1
 

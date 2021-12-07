@@ -40,7 +40,7 @@ def solve(data):
     print("Overlaps: ", overlaps2)
 
 
-with open(absolute_path + "/5_input.txt", 'r') as file:
+with open(absolute_path + "/input.txt", 'r') as file:
     data = file.readlines()
 
 

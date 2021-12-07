@@ -40,7 +40,7 @@ def solve(drawn_numbers, boards):
     print("Final score: ", score2)
 
 
-with open(absolute_path + "/4_input.txt", 'r') as file:
+with open(absolute_path + "/input.txt", 'r') as file:
     drawn_numbers = [int(n) for n in file.readline().split(",")]
     file.readline()
     boards = []
